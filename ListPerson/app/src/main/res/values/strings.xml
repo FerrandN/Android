@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListPerson</string>
+    <string name="delete">Delete</string>
+    <string name="copie">Copier une personne</string>
+</resources>

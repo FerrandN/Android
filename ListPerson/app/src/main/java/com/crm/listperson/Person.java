@@ -1,0 +1,44 @@
+package com.crm.listperson;
+
+import android.graphics.drawable.Drawable;
+
+public class Person {
+    private String name;
+    private String surname;
+
+    private Drawable photo;
+
+    public Person()
+    {
+        this.name = "name";
+        this.surname = "surname";
+
+    }
+
+    public Person(String name, String surname)
+    {
+        this.name = name;
+        this.surname = surname;
+    }
+
+    public Person(String name, String surname, Drawable profilPic)
+    {
+        this.name = name;
+        this.surname = surname;
+        this.photo = profilPic;
+    }
+    public String getName()
+    {
+        return name;
+    }
+
+    public String getSurname()
+    {
+        return surname;
+    }
+
+    public Drawable getPhoto()
+    {
+        return photo;
+    }
+}

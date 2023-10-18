@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button_canard">Canard</string>
+    <string name="compteur"></string>
+    <string name="button_Decremente">Dec</string>
+</resources>
